@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+import fs from 'node:fs';//Require package.json
 
 try {
     const data = fs.readFileSync('./quijote.txt', 'utf8');
