@@ -1,5 +1,5 @@
 ## Lector de ficheros JS+NODE ##
-<code>
+```
 import fs from 'node:fs';//Require package.json
 
 try {
@@ -8,4 +8,4 @@ try {
 } catch (err) {
     console.error(err);
 }
-</code>
+```
